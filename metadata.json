@@ -1,6 +1,0 @@
-{
-  "name": "Moodsonix 2.0",
-  "description": "A modern music streaming app rebranded as Moodsonix 2.0",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
