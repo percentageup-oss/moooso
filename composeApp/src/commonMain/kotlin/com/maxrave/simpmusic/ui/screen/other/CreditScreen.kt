@@ -105,14 +105,23 @@ fun CreditScreen(
             fontSize = 13.sp,
         )
 
-        // Developer - clickable, opens dev blog
+        // Developer
         Text(
-            text = stringResource(Res.string.maxrave_dev),
+            text = "Developed by Abhinav",
             style = typo().bodyMedium,
+            fontSize = 15.sp,
+        )
+
+        Spacer(modifier = Modifier.height(4.dp))
+
+        // Based on SimpMusic by maxrave-dev (GPL-3.0)
+        Text(
+            text = "Based on SimpMusic by maxrave-dev (GPL-3.0)",
+            style = typo().bodySmall,
             textDecoration = TextDecoration.Underline,
             modifier =
                 Modifier.clickable {
-                    openUrl("https://maxrave.dev")
+                    openUrl("https://github.com/maxrave-dev/SimpMusic")
                 },
         )
 
